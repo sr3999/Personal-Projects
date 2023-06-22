@@ -1,8 +1,4 @@
-# Homework 8
-
-Please remember that to submit the assignment you will need to the Education drop down menu and select assignment complete.
-
-## Problem 1 - Implementing a Spell Checker - 35 points
+## Problem 1 - Implementing a Spell Checker
 
 Implement a spell-checker by using a hash table. You will create a class called `SpellChecker` in the file `SpellChecker.java` that implements the interface `SpellCheckerInterface.java`.  The object will try to check for spelling errors in an input file, referencing a provided dictionary file. The `SpellChecker` object must accept the filename of the dictionary in its constructor. There is a sample dictionary file in the Codio workspace called `words.txt`.
 
@@ -32,7 +28,7 @@ You may choose to write a tester file, which might print out each incorrectly sp
 
 We have provided you a sample test file to spell-check. This file is called `test.txt`.
 
-## Problem 2 - K-Best Values - 29 points
+## Problem 2 - K-Best Values
 
 Find the k-best (i.e. largest) values in a set of data. Assume you are given a sequence of values, one value at a time. We do not know how many elements there are in this sequence. In fact, there could be infinitely many. Implement the class
 ```KBestCounter<T extends Comparable<? super T>> implements KBest<T>``` that keeps track of the k-largest elements seen so far in a sequence of data. The class should have two methods and a constructor:
