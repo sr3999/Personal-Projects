@@ -1,5 +1,3 @@
-# Homework 10
-
 ## Problem 1 - 18 points
 In a file Problem1.java implement a static method with the signature:
 
